@@ -1,3 +1,4 @@
+/* id do problema: 84 */
 #include <stdio.h>
 int main(){
 	int X, Y;
