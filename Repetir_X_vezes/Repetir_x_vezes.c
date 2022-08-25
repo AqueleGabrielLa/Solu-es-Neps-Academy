@@ -2,8 +2,8 @@
 #include <stdio.h>
 int main(){
     int X, i;
-    scanf("%d", &x);
-    for(i=1; i<N; i++){
+    scanf("%d", &X);
+    for(i=1; i<=X; i++){
         printf("NepsAcademy eh Sucesso\n");
     }
 }
