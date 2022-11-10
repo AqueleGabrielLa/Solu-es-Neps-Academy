@@ -1,0 +1,24 @@
+/* id do problema: 1369 */
+#include <iostream>
+#include <cmath>
+
+using namespace std;
+
+int main(){
+    double x1, y1, x2, y2, cal1, cal2;
+    double cal3;
+
+    cin >> x1 >> y2 >> x2 >> y2;
+    
+    cal1 = (x2 - x1);
+    cal1 = pow(cal1, 2);
+
+    cal2 = (y2 - y1);
+    cal2 = pow(cal2, 2);
+    
+    cal3 = sqrt(cal1) + sqrt(cal2);
+    
+    cout << (sqrt(cal1) + sqrt(cal2));
+
+    return 0;
+}
